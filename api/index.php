@@ -1,1 +1,1 @@
-<?php include __DIR__ . '/../index.html'; ?>
+<?php include __DIR__ . '/..'; ?>
