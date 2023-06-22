@@ -6,7 +6,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Internet aqcuiring HTML form</title>
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-        <link rel="stylesheet" href="../style/styles.css" type="text/css">
+        <link rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>
