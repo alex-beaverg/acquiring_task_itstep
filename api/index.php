@@ -1,1 +1,1 @@
-<?php include __DIR__ . '../actions/handler.php'; ?>
+<?php include __DIR__ . '../index.html'; ?>
