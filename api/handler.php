@@ -34,7 +34,7 @@ Payers: ".$payers."<br>
 Payment system: ".$payment_system."<br>
 Bank: ".$bank."<br><br>";
 
-$file = '../data/data.json';
+$file = '/../data/data.json';
 $arr = array(
     'Connection' => $connection,
     'Integration' => $integration,
