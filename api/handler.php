@@ -34,7 +34,7 @@ Payers: ".$payers."<br>
 Payment system: ".$payment_system."<br>
 Bank: ".$bank."<br><br>";
 
-$file = '/../data/data.json';
+$file = '../data/data.json';
 $arr = array(
     'Connection' => $connection,
     'Integration' => $integration,
@@ -46,7 +46,7 @@ $arr = array(
 $json_string = json_encode($arr);
 // file_put_contents($file, $json_string);
 
-$data = file_get_contents($file);
+$data = @file_get_contents($file);
 $data_string = json_encode(json_decode($data), JSON_PRETTY_PRINT);
 echo '<b>JSON file:</b> <br>';
 echo '<pre>' . $data_string . '</pre>';
