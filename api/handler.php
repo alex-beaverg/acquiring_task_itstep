@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Results</title>
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    </head>
+    <body>
+
+    </body>
+</html>
+
 <?php
 
 $connection = $_POST["connection"];
