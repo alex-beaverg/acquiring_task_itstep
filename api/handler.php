@@ -45,7 +45,7 @@ $arr = array(
 );
 $json_string = json_encode($arr);
 // file_put_contents($file, $json_string);
-
+echo $file;
 $data = @file_get_contents($file);
 $data_string = json_encode(json_decode($data), JSON_PRETTY_PRINT);
 echo '<b>JSON file:</b> <br>';
