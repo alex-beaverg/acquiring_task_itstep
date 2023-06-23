@@ -4,13 +4,13 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Internet aqcuiring HTML form</title>
+        <title>Internet acquiring HTML form</title>
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="stylesheet" href="style/styles.css" type="text/css">
     </head>
     <body>
         <header>
-            Internet aqcuiring HTML form
+            Internet acquiring HTML form
         </header>
         <div id="for_form">
             <form action="actions/handler.php" method="post" name="aqcuiring_form" onchange="submit_btn_can_be_clickable()">
