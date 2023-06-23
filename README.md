@@ -1,4 +1,4 @@
-## Aquiring task (itstep)
+## Acquiring task (itstep)
 ### Using:
 1. HTML
 2. CSS
