@@ -14,6 +14,7 @@
         <div id="for_form">
             <form action="api/handler.php" method="post" name="aqcuiring_form" onchange="submit_btn_can_be_clickable()">
                 <div id="labels">
+		    <label for="client">Client (Name Surname):</label>
                     <label for="connection">Connection:</label>
                     <label for="integration">Integration:</label>
                     <label for="payment">Payment method:</label>
@@ -22,6 +23,7 @@
                     <label for="bank">Bank:</label>
                 </div>
                 <div id="elements">
+		    <input id="client" name="client" type="text">
                     <select id="connection" name="connection" onchange="choose_connection_item()">
                         <option disabled selected hidden></option>
                         <option value="With website">With website</option>

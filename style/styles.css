@@ -31,6 +31,14 @@ select {
     border-radius: 0.5em;
     background-color: rgb(255, 244, 230);
 }
+#client {
+    cursor: text;
+    width: 178px;
+    margin-top: -2px;
+    margin-bottom: 10px;
+    height: 5px;
+    background-color: rgb(230, 249, 255);
+}
 label {
     margin-bottom: 15px;
     margin-top: 1px;
@@ -42,6 +50,9 @@ input {
     border-radius: 0.5em;
     border: solid 1px rgb(131, 131, 131);
     background-color: rgb(230, 255, 231);
+}
+select:hover {
+    cursor: pointer;
 }
 input:hover {
     cursor: pointer;

@@ -11,6 +11,7 @@
 
         <?php
 
+	$client = $_POST["client"];
         $connection = $_POST["connection"];
 
         if (isset($_POST["integration"])) {
@@ -25,6 +26,7 @@
         $bank = $_POST["bank"];
 
         echo "<b>Information:</b> <br><br>
+	Client: ".$client."<br>
         Connection: ".$connection."<br>
         Integration: ".$integration."<br>
         Payment method: ".$payment_method."<br>

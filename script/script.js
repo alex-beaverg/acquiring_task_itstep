@@ -1,5 +1,6 @@
 let aqcuiring_form = document.forms.aqcuiring_form;
 
+let client = aqcuiring_form.elements.client;
 let connection = aqcuiring_form.elements.connection;
 let integration = aqcuiring_form.elements.integration;
 let payment_method = aqcuiring_form.elements.payment_method;
@@ -53,8 +54,10 @@ function choose_item() {
 }
 
 function submit_btn_can_be_clickable() {
-    if (connection.value == 'With website' && integration.value != '' && payment_method.value != '' && payers.value != '' && payment_system.value != '' && bank.value != '' ||
-    connection.value != 'With website' && connection.value != '' && payment_method.value != '' && payers.value != '' && payment_system.value != '' && bank.value != '') {
+    if (connection.value == 'With website' && client.value != '' && integration.value != '' && payment_method.value != '' && 
+    payers.value != '' && payment_system.value != '' && bank.value != '' ||
+    connection.value != 'With website' && client.value != '' && connection.value != '' && payment_method.value != '' && payers.value != '' && 
+    payment_system.value != '' && bank.value != '') {
         submit_btn.disabled = false;
     } else {
         submit_btn.disabled = true;
